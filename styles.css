@@ -28,7 +28,7 @@ body {
     grid-row: 1/4;
     margin-top: 3em;
     float: left;
-    margin-left: 7em;
+    margin-left: 5em;
     height: 80%;
     width: 150px;
     text-align: center;
@@ -98,6 +98,21 @@ body {
     border-color: rgba(138, 7, 245, 0.808);
 }
 
+
+#search {
+    grid-column: 3;
+    height: 20px;
+    width: 240px;
+    margin-top: 8em;
+    border-radius: 5px;
+    border-color: #8d11f3;
+    background-color: #ffffff;
+    text-align: center;
+    background-image:url(search.png); 
+    background-repeat: no-repeat; 
+    background-position: 4px 3px;
+    margin-bottom: 1em;
+}
 .leaderboard {
     background-color: rgb(32, 32, 32);
     margin-left: 5px;
