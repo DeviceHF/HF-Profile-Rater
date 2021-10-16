@@ -6,33 +6,31 @@ body {
 }
 
 body {
-    background-color: #333333;
+    background-color: rgb(34, 34, 34);
+}
+
+.grid-container {
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .header {
-    position: absolute;
-    margin-left: 33%;
-    margin-top: 20px;
+    grid-column: 2/2;
 }
 
 .user-wrapper {
+    grid-column: 1;
+    grid-row: 1/4;
     margin-top: 3em;
     float: left;
     margin-left: 7em;
     height: 80%;
     width: 150px;
     text-align: center;
-}
-
-.userAvatar {
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 10px;
-    background-color: #333;
-    padding: 15px;
-    border-radius: 70px;
-    border: 2px solid #171717;
-    box-shadow: 0px 2px 2px 0px #040404bf;
 }
 
 .loggedUsername {
@@ -44,7 +42,7 @@ body {
 }
 
 .statsWrapper {
-    margin-left: 2em;
+
     height: 100px;
     max-width: 145px;
     margin: 0 auto;
@@ -58,8 +56,7 @@ body {
 
 }
 
-.stat_row {
-    padding-bottom: px;
+.statRow {
     text-align: left;
 }
 
@@ -72,41 +69,96 @@ body {
     text-align: right;
 }
 
-.statRow {
-    text-align: left;
-
-}
-
-.stat {
-    text-align: left;
-
-}
-
-.number {
-
-    text-align: left;
-    float: right;
-}
-
 .userGroups {
     margin-top: 1.5em;
 }
 
-.rate-wrapper {
-    position: relative;
-    margin-left: 23%;
-    margin-top: 220px;
-    float: left;
-    width: 500px;
-    height: 150px;
-    float: left;
-    text-align: center;
 
+.rate-wrapper {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    margin-top: 2em;
+    width: 500px;
+    text-align: center;
 }
+
+.right-wrapper {
+    grid-column: 3;
+    grid-row: 2/4;
+    width: 250px;
+    height: 450px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgba(138, 7, 245, 0.808);
+}
+
+.leaderboard {
+    background-color: rgb(32, 32, 32);
+    margin-left: 5px;
+    padding-right: 14px;
+    margin-top: 5px;
+    width: 90%;
+    height: 98%;
+}
+
+.rankAvatar {
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #333;
+    border-radius: 70px;
+    border: 2px solid #8d11f3;
+}
+
+.scoreOne {
+    color: whitesmoke;
+    text-align: left;
+    float: right;
+    margin-top: 45px;
+    margin-right: 10px;
+    font-family: Calibri;
+    font-size: 25px;
+}
+
+.creator-wrapper {
+    grid-column: 2;
+    grid-row: 4;
+    width: 400px;
+    margin-left: 9.8em;
+    text-align: center;
+    font-family: Calibri;
+    color: whitesmoke;
+}
+
+.creator-device {
+    float: left;
+    margin-right: 1em;
+}
+
+.creator-skull {
+    float: left;
+}
+
+
+
+.userAvatar {
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 10px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 70px;
+    border: 2px solid #171717;
+    box-shadow: 0px 2px 2px 0px #040404bf;
+}
+
 
 .barFrame {
     border: solid;
     border-color: blueviolet;
+    border-radius: 7px;
     width: 100%;
     height: 60px;
     border: 5px 5px;
@@ -156,44 +208,4 @@ body {
 
     font-size: 1.5em;
     font-weight: bold;
-}
-
-.right-wrapper {
-    float: right;
-    margin-right: 45px;
-    margin-top: 215px;
-    width: 250px;
-    height: 450px;
-    background-color: rgba(138, 7, 245, 0.808);
-}
-
-.leaderboard {
-    background-color: rgb(32, 32, 32);
-    margin-left: 5px;
-    padding-right: 14px;
-    margin-top: 5px ;
-    width: 90%;
-    height: 98%;
-}
-
-.rankAvatar {
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    background-color: #333;
-    border-radius: 70px;
-    border: 2px solid #8d11f3;
-   
-    
-}
-
-.scoreOne {
-    color: whitesmoke;
-    text-align: left;
-    float: right;
-    margin-top: 45px;
-    margin-right: 10px;
-    font-family: Calibri;
-    font-size: 25px;
 }
