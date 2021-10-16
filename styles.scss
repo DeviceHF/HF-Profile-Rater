@@ -1,7 +1,7 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
   margin: 0;
 }
 
@@ -136,52 +136,39 @@ body {
   margin-top: 12px;
 }
 
+
+@mixin rankLevelTemplate {
+    position: absolute;
+    margin-left: 87px;
+    margin-top: 22px;
+    font-family: Calibri;
+    border-radius: 7px;
+    background-color: #171717;
+    padding: 3px;
+    padding-right: 6px;
+}
 .rankLevel {
-  position: absolute;
-  margin-left: 87px;
-  margin-top: 22px;
-  font-family: Calibri;
-  border-radius: 7px;
-  background-color: #171717;
-  padding: 3px;
-  padding-right: 6px;
+  @include rankLevelTemplate;
   color: white;
 }
+  
 
 .rank1Level {
-  position: absolute;
-  margin-left: 87px;
-  margin-top: 22px;
-  font-family: Calibri;
-  border-radius: 7px;
-  background-color: #171717;
-  padding: 3px;
-  padding-right: 6px;
+  @include rankLevelTemplate;
   color: gold;
+  
 }
 
 .rank2Level {
-  position: absolute;
-  margin-left: 87px;
-  margin-top: 22px;
-  font-family: Calibri;
-  border-radius: 7px;
-  background-color: #171717;
-  padding: 3px;
-  padding-right: 6px;
+  @include rankLevelTemplate;
   color: silver;
+  
 }
 
 .rank3Level {
-  position: absolute;
-  margin-left: 87px;
-  margin-top: 22px;
-  font-family: Calibri;
-  border-radius: 7px;
-  background-color: #171717;
-  padding: 3px;
-  padding-right: 6px;
+  @include rankLevelTemplate;
   color: #cd7f32;
+  
 }
 
 .rankAvatar {
@@ -296,4 +283,5 @@ body {
   font-size: 1.5em;
   font-weight: bold;
 }
+
 /*# sourceMappingURL=styles.css.map */

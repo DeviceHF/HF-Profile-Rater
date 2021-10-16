@@ -1,7 +1,5 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
   margin: 0;
 }
 
@@ -141,11 +139,11 @@ body {
   margin-left: 87px;
   margin-top: 22px;
   font-family: Calibri;
+  color: white;
   border-radius: 7px;
   background-color: #171717;
   padding: 3px;
   padding-right: 6px;
-  color: white;
 }
 
 .rank1Level {
@@ -153,11 +151,11 @@ body {
   margin-left: 87px;
   margin-top: 22px;
   font-family: Calibri;
+  color: gold;
   border-radius: 7px;
   background-color: #171717;
   padding: 3px;
   padding-right: 6px;
-  color: gold;
 }
 
 .rank2Level {
@@ -165,11 +163,11 @@ body {
   margin-left: 87px;
   margin-top: 22px;
   font-family: Calibri;
+  color: silver;
   border-radius: 7px;
   background-color: #171717;
   padding: 3px;
   padding-right: 6px;
-  color: silver;
 }
 
 .rank3Level {
@@ -177,11 +175,11 @@ body {
   margin-left: 87px;
   margin-top: 22px;
   font-family: Calibri;
+  color: #cd7f32;
   border-radius: 7px;
   background-color: #171717;
   padding: 3px;
   padding-right: 6px;
-  color: #cd7f32;
 }
 
 .rankAvatar {
@@ -256,7 +254,7 @@ body {
 }
 
 .gauge {
-  width: 80%;
+  width: 3%;
   background-color: #9a51df;
   height: 60px;
   color: beige;
@@ -268,7 +266,7 @@ body {
   background-color: #171717;
   margin-bottom: 10px;
   font-family: Calibri;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
   color: whitesmoke;
 }
@@ -296,4 +294,5 @@ body {
   font-size: 1.5em;
   font-weight: bold;
 }
+
 /*# sourceMappingURL=styles.css.map */
