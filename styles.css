@@ -20,6 +20,7 @@ body {
 
 .header {
     grid-column: 2/2;
+    margin-top: 15px;
 }
 
 .user-wrapper {
@@ -42,7 +43,7 @@ body {
 }
 
 .statsWrapper {
-
+    border-radius: 7px;
     height: 100px;
     max-width: 145px;
     margin: 0 auto;
@@ -58,6 +59,7 @@ body {
 
 .statRow {
     text-align: left;
+
 }
 
 .stat {
@@ -70,7 +72,10 @@ body {
 }
 
 .userGroups {
+    border-radius: 7px;
+    padding-top: 10px;
     margin-top: 1.5em;
+    background-color: #333333;
 }
 
 
@@ -110,6 +115,8 @@ body {
     background-color: #333;
     border-radius: 70px;
     border: 2px solid #8d11f3;
+
+
 }
 
 .scoreOne {
@@ -126,10 +133,12 @@ body {
     grid-column: 2;
     grid-row: 4;
     width: 400px;
-    margin-left: 9.8em;
+    margin-left: 9.5em;
     text-align: center;
     font-family: Calibri;
     color: whitesmoke;
+
+
 }
 
 .creator-device {
