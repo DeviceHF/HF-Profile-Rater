@@ -1,0 +1,127 @@
+body {
+    background-color: #1f1f1f;
+
+}
+
+.hf-logo {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 26%;
+}
+
+#gradient {
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    background-color: deeppink;
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0));
+    transition: background-color 1s;
+}
+
+.profilescore {
+    width: 50%;
+
+    margin-left: 25%;
+
+}
+
+.barFrame {
+    border: solid;
+    border-color: blueviolet;
+    width: 80%;
+    height: 60px;
+    border: 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.gauge {
+    width: 1%;
+    background-color: rgb(154, 81, 223);
+    height: 60px;
+    color: beige;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.percent {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+
+.button {
+    margin-left: 33%;
+    margin-top: 40px;
+    overflow: hidden;
+    width: 30%;
+    height: 50px;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, blueviolet 0%, rgb(192, 135, 245) 51%, #c987e4 100%);
+    border-color: #1f1f1f;
+    border-radius: 10px;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+
+}
+
+.uberMessage {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+    margin-top: 3%;
+    padding-right: 3%;
+    text-align: center;
+
+
+}
+
+
+.inputFields {
+    margin-left: 33%;
+    text-align: center;
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    background-color: rgb(17, 17, 17);
+    border: none;
+    color: beige;
+}
+
+.first {
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+::placeholder {
+    color: beige;
+    font-size: 100%;
+}
+
+.button:hover {
+    background-position: left center;
+
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
